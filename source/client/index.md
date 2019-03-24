@@ -19,4 +19,7 @@ photos: https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/banner/client.jpg
 =====
 
 下载地址：[https://feilongproject.github.io/apks/notes/v2.0.0.apk](https://feilongproject.github.io/apks/notes/v2.0.0.apk)
-预览：![01](https://f
+预览：![01](https://feilongproject.github.io/apks/notes/01.png)
+![02](https://feilongproject.github.io/apks/notes/02.png)
+[]()
+[]()
