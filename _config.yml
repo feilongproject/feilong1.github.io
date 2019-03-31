@@ -81,16 +81,11 @@ deploy:
   type: git
   repo: https://github.com/feilongproject/feilongproject.github.io.git
 
-#backup:
-#  type: git
-#  message: backup my blog of https://yourname.github.io/
-#  repository:
-#    github: https://github.com/feilongproject/feilongproject.github.io.git,backup
 backup:
   type: git
-  message: backup my blog of https://honjun.github.io/
+  message: backup my blog of https://yourname.github.io/
   repository:
-    github: https://github.com/honjun/honjun.github.io.git,backup
+    github: https://github.com/feilongproject/feilongproject.github.io.git,backup
     coding: https://git.dev.tencent.com/feilongproject/feilongproject.git,backup    
     
 #RSS
