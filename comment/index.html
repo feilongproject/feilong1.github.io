@@ -527,7 +527,13 @@ tpwidget("show");</script>
     <p style="font-family: 'Ubuntu', sans-serif;">
         <span style="color: #b9b9b9;">主题由<a href="https://github.com/honjun/hexo-theme-sakura" target="_blank" style="color: #85C1E9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Sakura</a><i class="iconfont icon-sakura rotating" style="color: #ffc0cb;display:inline-block"></i>，<a href="https://2heng.xin/" target="_blank" style="color: #85C1E9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Mashiro</a>，<a href="https://www.hojun.cn/" target="_blank" style="color: #85C1E9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hojun</a>提供支持, Powered by <a href="http://hexo.io/" target="_blank" style="color: #85C1E9;;text-decoration: underline dotted rgba(0, 0, 0, .1);">Hexo</a>, Hosted by Coding Pages
         </span><br>
-        <script type="text/javascript" src="https://s9.cnzz.com/z_stat.php?id=1277870723&web_id=1277870723"></script>        
+        <script>
+          $(function () {
+            var cnzz = document.createElement("script");
+            cnzz.src = "//s4.cnzz.com/z_stat.php?id=1277870723&web_id=1277870723"; //这里插入你的cnzz统计代码中的统计数据链接
+            document.getElementsByClassName('footer-copyright')[0].appendChild(cnzz);
+          });
+      </script>
       </p>
     </div>
   </div><!-- .site-info -->
